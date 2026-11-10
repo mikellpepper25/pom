@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Bonbon&display=swap");
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff8ed;
+  padding: 1rem;
+}
+
+h1 {
+  font-family: "Bonbon", cursive;
+  font-weight: 500;
+  font-style: normal;
+  color: #e6007e;
+}
+h3 {
+  color: #556b2f;
+}
+
+h2 {
+  color: #d2691e;
+}
+p {
+  color: #556b2f;
+}
+li {
+  color: #e6007e;
+  list-style: none;
+}
+a {
+  color: #e6007e;
+}
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.card {
+  border: 1px solid #d2691e;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+@media (min-width: 700px) {
+  .card {
+    width: calc(50% - 0.5rem);
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+ul {
+  padding-left: 0;
+}
+#basic-info {
+  background-color: #ffe4ef;
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
